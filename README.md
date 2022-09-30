@@ -6,7 +6,7 @@
 ![](image/givimrc.gif)
 
 #### 2. Salin sumber kode dibawah ini lalu tempelkan ke file _vimrc atau _gvimrc save file tersebut
-  ```
+```
 syntax on
 
 set autoindent
