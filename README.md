@@ -36,6 +36,7 @@ if has("gui_running")
   set guifont=Lucida_Console:h11
   " untuk menghilangkan toolbar
   set guioptions-=T
+  colorscheme koben
 endif
 
 " untuk popup text
