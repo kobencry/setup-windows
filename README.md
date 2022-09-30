@@ -17,6 +17,8 @@ set expandtab
 set fileformat=unix
 set ignorecase
 set incsearch
+set nobackup
+set nowritebackup
 set nocompatible
 set noswapfile
 set nowrap
@@ -25,6 +27,10 @@ set smartindent
 set smarttab
 set softtabstop=2
 set tabstop=2
+"jika anda ingin menghapus file backup yang dibuat secara otomatis oleh vim 
+"extensi file: file.txt.un~, file.js.un~ file.html.un~ 
+"gunakan perintah ini:
+"set undodir="C:\\Users\\USER\\vimfiles\\undodir"
 set undofile
 set visualbell
 set ww=<,>,[,]
@@ -71,4 +77,4 @@ inoremap <expr><C-J> pumvisible() ? "\<C-n>" : "\<C-J>"
 inoremap <expr><C-K> pumvisible() ? "\<C-p>" : "\<C-K>"
 inoremap <expr><Cr>  pumvisible() ? "\<C-y>" : "\<Cr>"
 ```
-![](image/editvimrc.gif)
+![](image/vsetup.gif)
