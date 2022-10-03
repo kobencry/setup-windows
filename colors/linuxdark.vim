@@ -26,6 +26,8 @@ hi javaStorageClass ctermfg=62 ctermbg=16 cterm=NONE guifg=#5f5fd7 guibg=#000000
 hi Normal ctermfg=231 ctermbg=16 cterm=NONE guifg=#ffffff guibg=#000000 gui=NONE
 "nilai boolean true, false
 hi Boolean ctermfg=62 ctermbg=16 cterm=bold guifg=#5f5fd7 guibg=#000000 gui=bold
+"karakter di bawah kursor"kedap kedip"
+hi Cursor ctermfg=16 ctermbg=42 cterm=bold guifg=#000000 guibg=#00ff00 gui=bold 
 "kolom layar tempat kursor berada saat 'kolom kursor' disetel
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
 "garis layar tempat kursor berada saat 'garis kursor' disetel
