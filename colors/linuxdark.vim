@@ -27,7 +27,7 @@ hi Normal ctermfg=231 ctermbg=16 cterm=NONE guifg=#ffffff guibg=#000000 gui=NONE
 "nilai boolean true, false
 hi Boolean ctermfg=62 ctermbg=16 cterm=bold guifg=#5f5fd7 guibg=#000000 gui=bold
 "karakter di bawah kursor"kedap kedip"
-hi Cursor ctermfg=16 ctermbg=42 cterm=bold guifg=#000000 guibg=#00ff00 gui=bold 
+hi Cursor ctermfg=16 ctermbg=40 cterm=bold guifg=#000000 guibg=#00ff00 gui=bold 
 "kolom layar tempat kursor berada saat 'kolom kursor' disetel
 hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
 "garis layar tempat kursor berada saat 'garis kursor' disetel
@@ -51,13 +51,13 @@ hi Function ctermfg=62 ctermbg=16 cterm=NONE guifg=#5f5fd7 guibg=#000000 gui=NON
 "ketik :number atau :#
 hi LineNr ctermfg=102 ctermbg=237 cterm=NONE guifg=#90908a guibg=#000000 gui=NONE
 " konstanta string: 'hello world' "hello world"
-hi String ctermfg=148 ctermbg=16 cterm=NONE guifg=#87ff5f guibg=#000000 gui=NONE
+hi String ctermfg=148 ctermbg=16 cterm=NONE guifg=#8ae234 guibg=#000000 gui=NONE
 " angka
 hi Number ctermfg=197 ctermbg=16 cterm=NONE guifg=#ff005f guibg=#000000 gui=NONE
 "statemen class def/function if else for while boolean exception
 hi Statement ctermfg=51 ctermbg=16 cterm=NONE guifg=#00ffff guibg=#000000 gui=NONE
 " modevisual
-hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
+hi Visual ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#272822 gui=NONE
 " vertical split file
 hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#64645e guibg=#000000 gui=NONE
 " status baris jendela vim saat ini
@@ -73,9 +73,9 @@ hi NonText ctermfg=62 ctermbg=16 cterm=bold guifg=#5f5fd7 guibg=#000000 gui=bold
 hi Pmenu ctermfg=fg ctermbg=233 cterm=NONE guifg=fg guibg=#121212 gui=NONE
 hi PmenuSel ctermfg=16 ctermbg=61 cterm=NONE guifg=#000000 guibg=#5f5faf gui=NONE
 "'showmode' message (e.g., '-- INSERT --', '-- VISUAL --')
-hi ModeMsg ctermfg=148 ctermbg=16 cterm=NONE guifg=#87ff5f guibg=#000000 gui=NONE
+hi ModeMsg ctermfg=10 ctermbg=16 cterm=NONE guifg=#00ff00 guibg=#000000 gui=NONE
 " more-prompt (e.g., -- More -- .etc) contoh ketik :autocmd  
-hi MoreMsg ctermfg=16 ctermbg=82 cterm=NONE guifg=#000000 guibg=#66ff66 gui=NONE
+hi MoreMsg ctermfg=10 ctermbg=16 cterm=NONE guifg=#00ff00 guibg=#000000 gui=NONE
 hi Question ctermfg=16 ctermbg=82 cterm=NONE guifg=#00ff00 guibg=NONE gui=NONE
 "pesan peringatan
 hi WarningMsg ctermfg=196 ctermbg=NONE cterm=NONE guifg=#f54242 guibg=NONE gui=NONE
